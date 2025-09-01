@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton:wght@400&family=Urbanist:wght@400;700&display=swap');
+
+body {
+    background: #232323;
+    margin: 0;
+    color: #eaeaea;
+    font-family: 'Urbanist', Arial, sans-serif;
+}
+.main-bg {
+    max-width: 1200px;
+    margin: 32px auto;
+    background: linear-gradient(135deg, #232323 90%, #2d2d2d 100%);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+    padding: 32px 36px;
+    border: 1px solid #444;
+}
+.hero-card {
+    border: 1px solid #444;
+    border-radius: 12px;
+    padding: 32px 24px 24px 24px;
+    margin-bottom: 32px;
+    background: #232323;
+    position: relative;
+}
+.portfolio-header {
+    text-align: center;
+    position: relative;
+}
+.updated {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1rem;
+    color: #eaeaea;
+    font-family: 'Urbanist', Arial, sans-serif;
+}
+.portfolio-title {
+    font-family: 'Anton', Impact, Arial, sans-serif;
+    font-size: 6.5rem;
+    font-weight: 900;
+    color: #bdbdbd;
+    letter-spacing: 2px;
+    margin: 0;
+    line-height: 1;
+    display: inline-block;
+    position: relative;
+}
+.portfolio-year {
+    background: #ff4c1e;
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: 'Urbanist', Arial, sans-serif;
+    border-radius: 16px;
+    padding: 2px 16px;
+    position: absolute;
+    right: -70px;
+    top: 40px;
+    font-weight: 700;
+}
+.portfolio-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    font-size: 1.1rem;
+    color: #eaeaea;
+    font-family: 'Urbanist', Arial, sans-serif;
+}
+.author {
+    color: #eaeaea;
+}
+.portfolio-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 32px;
+    gap: 6px;
+    font-size: 1rem;
+    color: #eaeaea;
+    font-family: 'Urbanist', Arial, sans-serif;
+}
+.author-orange {
+    color: #ff4c1e;
+    font-weight: 700;
+}
+.portfolio-desc {
+    margin-top: 6px;
+    color: #bdbdbd;
+}
+.portfolio-copyright {
+    margin-top: 12px;
+    font-size: 0.95rem;
+    color: #bdbdbd;
+}
+.about-card {
+    border: 1px solid #444;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 32px;
+    background: #232323;
+}
+.about-flex {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+.about-img img {
+    width: 460px;
+    height: 460px;
+    object-fit: cover;
+    border-radius: 12px;
+    background: #ffffff00;
+    border: 1px solid #444;
+    display: block;
+}
+.about-content {
+    flex: 1;
+}
+.hello-title {
+    font-family: 'Anton', Impact, Arial, sans-serif;
+    font-size: 5rem;
+    font-weight: 900;
+    color: #bdbdbd;
+    margin: 0 0 8px 0;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+}
+.hello-exclaim {
+    color: #ff4c1e;
+    font-size: 5rem;
+    font-family: 'Anton', Impact, Arial, sans-serif;
+    margin-left: 8px;
+}
+.about-desc {
+    font-size: 1.1rem;
+    color: #eaeaea;
+    margin-bottom: 18px;
+    line-height: 1.6;
+}
+.about-contacts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 10px;
+}
+.contact-btn {
+    background: #ff4c1e;
+    color: #fff;
+    font-family: 'Urbanist', Arial, sans-serif;
+    font-size: 1rem;
+    border-radius: 16px;
+    padding: 8px 18px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: background 0.2s;
+    margin-bottom: 6px;
+    display: inline-block;
+    border: none;
+    outline: none;
+}
+.contact-btn:hover {
+    background: #d32f2f;
+}
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin-top: 24px;
+    align-items: start; /* Ensure all columns align at the top */
+}
+.info-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: #232323;
+    border: 1px solid #444;
+    border-radius: 12px;
+    padding: 18px 16px;
+    color: #eaeaea;
+    font-family: 'Urbanist', Arial, sans-serif;
+    min-width: 0;
+    height: 100%; /* Make all columns equal height */
+}
+.info-title {
+    font-family: 'Anton', Impact, Arial, sans-serif;
+    font-size: 1.3rem;
+    color: #bdbdbd;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+}
+.lang-title {
+    margin-top: 18px;
+}
+.info-block {
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.info-year {
+    font-size: 1rem;
+    color: #ff4c1e;
+    font-weight: 700;
+}
+.info-main {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #eaeaea;
+}
+.info-sub {
+    font-size: 1rem;
+    color: #bdbdbd;
+}
+.skills-icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px 12px;
+    align-items: start;
+    justify-items: center;
+    margin-top: 8px;
+}
+.skill-icon {
+    width: 100%;
+    min-width: 0;
+    background: #232323;
+    border-radius: 10px;
+    border: 1px solid #444;
+    padding: 12px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+}
+.skill-icon img {
+    width: 38px;
+    height: 38px;
+    margin-bottom: 4px;
+    border-radius: 8px;
+    border: none;
+    background: transparent; /* Remove white background */
+    display: block;
+    box-shadow: none;
+}
+.skill-icon span {
+    font-family: 'Anton', Impact, Arial, sans-serif;
+    font-size: 1.2rem;
+    color: #bdbdbd00;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+.skill-desc {
+    font-size: 0.95rem;
+    color: hsl(0, 0%, 99%);
+    text-align: center;
+    line-height: 1.3;
+    font-family: 'Urbanist', Arial, sans-serif;
+    font-weight: 300; /* Light font */
+    margin-top: 2px;
+}
+.skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 12px 0;
+    color: #eaeaea;
+    font-size: 1rem;
+}
+.skills-list li {
+    margin-bottom: 6px;
+}
+.lang-level {
+    color: #bdbdbd;
+    font-size: 0.95rem;
+    margin-left: 4px;
+}
+@media (max-width: 1100px) {
+    .main-bg { padding: 12px 2vw; }
+    .about-flex { flex-direction: column; gap: 18px; }
+    .info-grid { grid-template-columns: 1fr 1fr; gap: 12px; }
+    .portfolio-title { font-size: 3.2rem; }
+    .hello-title { font-size: 2.2rem; }
+    .hello-exclaim { font-size: 2.2rem; }
+    .about-img img { width: 140px; height: 160px; }
+}
+@media (max-width: 900px) {
+    .info-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 700px) {
+    .info-grid { grid-template-columns: 1fr; }
+    .main-bg { padding: 8px 1vw; }
+    .about-img img { width: 100px; height: 120px; }
+}
